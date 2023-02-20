@@ -1,0 +1,290 @@
+
+
+#include <iostream>
+#include<math.h>
+#include<conio.h>
+using namespace std;
+int main ()
+{
+float h;
+float hours;
+float overtime;
+float overprice;
+float finalsalary;
+float realsalary;
+float m;
+
+cout<<"Enter the number of days (29/28/30/31) "<<endl;
+cin>>m; 
+
+ if(m==30){
+ cout<<"Enter the hours system (9/12) "<<endl;
+cin>>h; 
+
+ if(h==9)
+ {
+cout<<"Enter the salary"<<endl;
+cout<<"the salary : " ;
+cin>> realsalary;
+
+cout<<"Enter the total hours"<<endl;
+cout<<"total hours :  ";
+cin>>hours;
+
+ if(hours>243){
+overtime=hours-243 ;
+overprice=overtime *(realsalary/270);
+cout << "overprice : "<<overprice <<endl;
+  finalsalary= overprice+realsalary ;
+  cout<<"the final salary is :  "<<finalsalary<<endl;
+   }
+   else if(hours<=243)
+   {
+
+overprice=hours *(realsalary/270);
+ cout<<"the final salary is :  "<<overprice<<endl;
+
+   }
+ }
+ else if (h==12)
+ {
+cout<<"Enter the salary"<<endl;
+cout<<"the salary : " ;
+cin>>realsalary;
+
+cout<<"Enter the total hours"<<endl;
+cout<<"total hours :  ";
+cin>> hours;
+  
+if(hours>312){
+overtime=hours-312 ;
+overprice=overtime *(realsalary/360);
+cout << "overprice : "<<overprice <<endl;
+  finalsalary= overprice+realsalary ;
+  cout<<"the final salary is :  "<<finalsalary<<endl;
+   }
+   else if(hours<=312)
+   {
+
+overprice=hours *(realsalary/360);
+ cout<<"the final salary is :  "<<overprice<<endl;
+ 
+   }
+
+ }
+ else
+ {
+    cout<<"the system hours value is valid ";
+ }
+}
+else if (m==31)
+{
+
+ cout<<"Enter the hours system (9/12) "<<endl;
+cin>>h; 
+
+ if(h==9)
+ {
+cout<<"Enter the salary"<<endl;
+cout<<"the salary : " ;
+cin>> realsalary;
+
+cout<<"Enter the total hours"<<endl;
+cout<<"total hours :  ";
+cin>>hours;
+   
+if(hours>252){
+overtime=hours-252 ;
+overprice=overtime *(realsalary/270);
+cout << "overprice : "<<overprice <<endl;
+  finalsalary= overprice+realsalary ;
+  cout<<"the final salary is :  "<<finalsalary<<endl;
+   }
+   else if(hours<=252)
+   {
+
+overprice=hours *(realsalary/270);
+ cout<<"the final salary is :  "<<overprice<<endl;
+ 
+   }
+
+
+ }
+ else if (h==12)
+ {
+cout<<"Enter the salary"<<endl;
+cout<<"the salary : " ;
+cin>>realsalary;
+
+cout<<"Enter the total hours"<<endl;
+cout<<"total hours :  ";
+cin>> hours;
+
+if(hours>312){
+overtime=hours-312 ;
+overprice=overtime *(realsalary/360);
+cout << "overprice : "<<overprice <<endl;
+  finalsalary= overprice+realsalary ;
+  cout<<"the final salary is :  "<<finalsalary<<endl;
+   }
+   else if(hours<=312)
+   {
+
+overprice=hours *(realsalary/360);
+ cout<<"the final salary is :  "<<overprice<<endl;
+ 
+   }
+
+
+
+ }
+ else
+ {
+    cout<<"the system hours value is valid ";
+ }
+
+}
+   
+
+   
+else if (m==29)
+{
+
+ cout<<"Enter the hours system (9/12) "<<endl;
+cin>>h; 
+
+ if(h==9)
+ {
+cout<<"Enter the salary"<<endl;
+cout<<"the salary : " ;
+cin>> realsalary;
+
+cout<<"Enter the total hours"<<endl;
+cout<<"total hours :  ";
+cin>>hours;
+
+if(hours>225){
+overtime=hours-225 ;
+overprice=overtime *(realsalary/270);
+cout << "overprice : "<<overprice <<endl;
+  finalsalary= overprice+realsalary ;
+  cout<<"the final salary is :  "<<finalsalary<<endl;
+   }
+   else if(hours<=225)
+   {
+
+overprice=hours*(realsalary/270);
+ cout<<"the final salary is :  "<<overprice<<endl;
+ 
+   }
+
+
+ }
+ else if (h==12)
+ {
+cout<<"Enter the salary"<<endl;
+cout<<"the salary : " ;
+cin>>realsalary;
+
+cout<<"Enter the total hours"<<endl;
+cout<<"total hours :  ";
+cin>> hours;
+
+if(hours>297){
+overtime=hours-297 ;
+overprice=overtime *(realsalary/360);
+cout << "overprice : "<<overprice <<endl;
+  finalsalary= overprice+realsalary ;
+  cout<<"the final salary is :  "<<finalsalary<<endl;
+   }
+   else if(hours<=297)
+   {
+
+overprice=hours *(realsalary/360);
+ cout<<"the final salary is :  "<<overprice<<endl;
+ 
+   }
+
+
+ }
+ else
+ {
+    cout<<"the system hours value is valid ";
+ }
+
+}
+
+else if (m==28)
+{
+
+ cout<<"Enter the hours system (9/12) "<<endl;
+cin>>h; 
+
+ if(h==9)
+ {
+cout<<"Enter the salary"<<endl;
+cout<<"the salary : " ;
+cin>> realsalary;
+
+cout<<"Enter the total hours"<<endl;
+cout<<"total hours :  ";
+cin>>hours;
+
+if(hours>216){
+overtime=hours-216 ;
+overprice=overtime *(realsalary/270);
+cout << "overprice : "<<overprice <<endl;
+  finalsalary= overprice+realsalary ;
+  cout<<"the final salary is :  "<<finalsalary<<endl;
+   }
+   else if(hours<=216)
+   {
+
+overprice=hours *(realsalary/270);
+ cout<<"the final salary is :  "<<overprice<<endl;
+ 
+   }
+
+
+ }
+ else if (h==12)
+ {
+cout<<"Enter the salary"<<endl;
+cout<<"the salary : " ;
+cin>>realsalary;
+
+cout<<"Enter the total hours"<<endl;
+cout<<"total hours :  ";
+cin>> hours;
+
+if(hours>288){
+overtime=hours-288 ;
+overprice=overtime *(realsalary/360);
+cout << "overprice : "<<overprice <<endl;
+  finalsalary= overprice+realsalary ;
+  cout<<"the final salary is :  "<<finalsalary<<endl;
+   }
+   else if(hours<=288)
+   {
+
+overprice=hours *(realsalary/360);
+ cout<<"the final salary is :  "<<overprice<<endl;
+ 
+   }
+
+
+ }
+ else
+ {
+    cout<<"the system hours value is valid ";
+ }
+
+}
+else 
+{
+cout<<"the month days value is valid ";
+}
+
+getch ();
+return 0;
+}
